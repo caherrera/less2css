@@ -1,0 +1,24 @@
+{
+  "name": "caherrera/less2css",
+  "type": "plugin",
+  "description": "Wordpress Plugin to compile LESS written in PHP using leafo/lessphp library",
+  "homepage": "https://github.com/caherrera/less2css",
+  "license": [
+    "GPL-2.0"
+  ],
+  "authors": [
+    {
+      "name": "Carlos Herrera",
+      "email": "caherrera@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "leafo/lessphp": "0.4.0"
+  },
+  "config": {
+    "platform": {
+      "php": "7.0"
+    }
+  }
+}
